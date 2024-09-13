@@ -1,6 +1,6 @@
 import jobs from "../jobs.json";
 import JobListing from "./JobListing";
-import { JOBS } from "./shared/types";
+import { JOBS } from "../shared/types";
 
 const JobListings = () => {
   const recentJobs = jobs.slice(0, 3);
